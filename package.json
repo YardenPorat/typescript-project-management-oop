@@ -1,0 +1,26 @@
+{
+  "name": "understanding-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "lite-server",
+    "build": "webpack --config webpack.config.prod.js",
+    "dev": "webpack-dev-server --open"
+  },
+  "keywords": [
+    "typescript",
+    "tasks app"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "lite-server": "^2.5.4",
+    "ts-loader": "^8.0.13",
+    "typescript": "^4.1.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.1"
+  }
+}
